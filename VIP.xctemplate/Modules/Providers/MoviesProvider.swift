@@ -16,7 +16,7 @@ class MoviesProvider: MoviesProviderProtocol {
     
     internal func fetchDataFromWeb(_ completion: @escaping (MoviesEntity) -> (), failure: @escaping(APIError) -> ()) {
 
-        let providerRD = RequestData(params: nil, method: .get, urlContext: .WCS, endpoint: URLEndpoint.moviesApple)
+        let providerRD = RequestData(params: nil, method: .get, urlContext: .webService, endpoint: URLEndpoint.moviesApple)
         
         self.dataService.request(dto: providerRD,
                                  entityClass: MoviesEntity.self) { [weak self] (result) in
