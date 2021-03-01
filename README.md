@@ -1,4 +1,4 @@
-Architecture VIP+UI - Andrés Ocampo
+Architecture VIP+UI - OpenSource
 ================
 # Instalación de Templates para Xcode
 
