@@ -18,7 +18,7 @@ class MoviesProvider: MoviesProviderProtocol {
 
         let providerRD = RequestData(params: nil, method: .get, urlContext: .webService, endpoint: URLEndpoint.moviesApple)
         
-        self.dataService.request(dto: providerRD,
+        self.dataService.request(request: providerRD,
                                  entityClass: MoviesEntity.self) { [weak self] (result) in
             guard self != nil else { return }
             if let resultDes = result {
