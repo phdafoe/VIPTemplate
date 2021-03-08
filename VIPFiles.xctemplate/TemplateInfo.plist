@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Create all VIP module files for ARQiOS</string>
+	<key>Summary</key>
+	<string>Create all VIP module files for ARQiOS</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Description</key>
+			<string>Functionality Class Name [example: Home]</string>
+			<key>Name</key>
+			<string>Functionality Class Name [example: Home]</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Home</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Default</key>
+			<string>___VARIABLE_productName___</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>nameView</string>
+			<key>Name</key>
+			<string>View Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>View Name</string>
+			<key>Default</key>
+			<string>___VARIABLE_name___.swift</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>namePresenter</string>
+			<key>Name</key>
+			<string>Presenter Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Presenter Name</string>
+			<key>Default</key>
+			<string>___VARIABLE_name___Presenter.swift</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>nameInteractor</string>
+			<key>Name</key>
+			<string>Interactor Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Interactor Name</string>
+			<key>Default</key>
+			<string>___VARIABLE_name___Interactor.swift</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>nameModule</string>
+			<key>Name</key>
+			<string>Module Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Module Name</string>
+			<key>Default</key>
+			<string>___VARIABLE_name___Module.swift</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>nameProvider</string>
+			<key>Name</key>
+			<string>Provider Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Provider Name</string>
+			<key>Default</key>
+			<string>___VARIABLE_name___Provider.swift</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
