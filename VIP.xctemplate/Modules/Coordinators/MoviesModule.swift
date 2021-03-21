@@ -10,16 +10,15 @@ import SwiftUI
 // MARK: - module builder
 final class MoviesModule: ModuleInterface {
     
-    typealias View = MoviesView
+    typealias ContentView = MoviesView
     typealias Presenter = MoviesPresenter
     typealias Interactor = MoviesInteractor
     
-    func build() -> UIViewController {
+    func build() -> ContentView {
         let presenter = Presenter()
         let interactor = Interactor()
-        let view = View(viewModel: presenter)
+        let view = ContentView(viewModel: presenter)
         self.assemble(presenter: presenter, interactor: interactor)
-        let viewController = UIHostingController(rootView: view)
-        return viewController
+        return view
     }
 }
