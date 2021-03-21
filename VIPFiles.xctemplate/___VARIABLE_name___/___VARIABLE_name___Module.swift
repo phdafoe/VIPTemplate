@@ -21,17 +21,16 @@ import SwiftUI
 
 final class ___VARIABLE_name___Module: ModuleInterface {
     
-    typealias View = ___VARIABLE_name___View
+    typealias ContentView = ___VARIABLE_name___View
     typealias Presenter = ___VARIABLE_name___Presenter
     typealias Interactor = ___VARIABLE_name___Interactor
     
-    func build() -> UIViewController {
+    func build() -> ContentView {
         let presenter = Presenter()
         let interactor = Interactor()
-        let view = View(viewModel: presenter)
+        let view = ContentView(viewModel: presenter)
         self.assemble(presenter: presenter, interactor: interactor)
-        let viewController = UIHostingController(rootView: view)
-        return viewController
+        return view
     }
 }
 
