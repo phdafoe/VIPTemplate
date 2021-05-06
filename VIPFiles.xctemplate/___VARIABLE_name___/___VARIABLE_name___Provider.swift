@@ -1,20 +1,8 @@
+// ___VARIABLE_name___Provider.swift
+// Architecture VIP+UI
 //
-//  Created on ___DATE___.
-// subfolder/Filename.swift - Very brief description
-//
-// This source file is part of the everis open source project in iOS Desktop
-//
-// Copyright (c) 2020 EVERIS Sl. and the Swift project authors iOS Desktop
-// Licensed under Apache License v2.0 with Runtime Library Exception
-//
-// See https://steps.everis.com/git/MOVILIDAD/architecture-swiftui-ios/-/blob/master/README.md for text information
-//
-// -----------------------------------------------------------------------------
-///
-/// This file contains stuff that I am describing here in the header and will
-/// be sure to keep up to date.
-///
-// -----------------------------------------------------------------------------
+// This source file is open source project in iOS
+// See README.md for more information
 
 import Foundation
 
